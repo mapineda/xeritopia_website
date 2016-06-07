@@ -15,6 +15,9 @@ Generate and disseminate water conservation knowledge to better society.
 This project is generated with [yo angular generator](https://github.com/yeoman/generator-angular)
 version 0.0.2.
 
+Install yo
+``` npm install yo ```
+
 ## Build & development
 
 Clone the repo
