@@ -7,7 +7,7 @@ Make your neighbors jealous with your awesome xeriscape.
 
 ## Mission
 
-Generate and disseminate water conservation knowledge to better society.
+To generate, disseminate and preserve water conservation knowledge, and to work with others to bring this knowledge to bear on the world's greatest water challenges.
 
 
 ## Getting Started

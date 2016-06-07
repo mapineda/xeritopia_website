@@ -50,6 +50,10 @@ body {
   margin-top: 20px;
   margin-bottom: 0;
 }
+
+.learn-more-link {
+  margin-top: 300px;
+}
 .second-section .section-text, .third-section .section-text, .fourth-section .section-text, .fifth-section .section-text,
 .footer-section .section-text {
   top: 25%;
