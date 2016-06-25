@@ -1,13 +1,200 @@
 /* Empty. Add your own CSS if you like */
+body, html {
+  height: 100%;
+  width: 100%;
+  padding: 0;
+  margin: 0;
+  font-family: 'Source Sans Pro', sans-serif;
+}
 
-body {
- font-family: 'Source Sans Pro', sans-serif;
- height: 100%;
- width: 100%;
+.main-section {
+  height: 100%;
+  position: relative;
+  width: 100%;
+
+}
+
+.main-section:not(:first-child) {
+  margin-top: -20px;
 }
 
 .first-section::before {
-  height: 500px;
+  background-color: black;
+  bottom: 0;
+  content: ' ';
+  height: 100%;
+  left: 0;
+  opacity: .65;
+  position: absolute;
+  right: 0;
+  top: 0;
+  width: 100%;
+}
+
+.first-section {
+  background: url(../images/succulents1.png);
+  background-size: cover;
+  background-position: center;
+  background-attachment: fixed;
+}
+
+.first-section img {
+  margin-bottom: 80px;
+}
+
+.section-text {
+  /*height: 500px;*/
+ color: white;
+ position: relative;
+ text-align: center;
+ top: 17.5%;
+ font-size: 1.75em;
+ padding: 0 35px;
+}
+
+.xeritopia-text {
+  font-family: 'Yellowtail', sans-serif;
+  font-size: 60px;
+}
+
+.section-text img {
+  margin-bottom: 0;
+  margin-top: 20px;
+}
+
+.second-section .section-text, .third-section .section-text, .fourth-section .section-text, .fifth-section .section-text,
+.footer-section .section-text {
+  top: 25%;
+}
+
+.second-section {
+ background-color: #B94962;
+}
+
+.third-section {
+ background-color: #3A7EA6;
+}
+
+.fourth-section {
+ background-color: #007664;
+}
+
+.fifth-section {
+  background-color: white;
+}
+
+.main-section.fifth-section .icon, .main-section.fifth-section a {
+  color: #00AB91;
+}
+
+.section-text > span.lead-text {
+  font-size: .95em;
+  /*font-weight: 500;*/
+  letter-spacing: 3px;
+  text-transform: uppercase;
+}
+
+.section-text p {
+  margin-top: 20px;
+  margin-bottom: 0px;
+  font-weight: 300;
+}
+
+.section-text > span {
+ font-weight: 200;
+}
+
+.head-tagline   {
+  margin-bottom: 20px;
+}
+
+.fifth-section span, .fifth-section p {
+  color: black;
+}
+
+.main-section .icon {
+  font-size: 4em;
+  margin: 10px 0;
+  position: relative;
+  top: 5px;
+}
+
+.info-text {
+  line-height: 40px;
+  margin: 25px 40px 40px;
+}
+
+
+.learn-more-link {
+  color: white;
+  padding: 15px 30px;
+  border-radius: 26px;
+  border: 1px solid white;
+  text-decoration: none;
+  position: relative;
+  top: 50px;
+  font-size: 20px;
+  transition: all .25s ease-in-out;
+}
+
+.second-section .learn-more-link:hover {
+  color: #B94962;
+  background-color: white;
+}
+
+.third-section .learn-more-link:hover {
+  color: #3A7EA6;
+  background-color: white;
+}
+
+.fourth-section .learn-more-link:hover {
+  color: #007664;
+  background-color: white;
+}
+
+.fifth-section .learn-more-link:hover {
+  color: white;
+  background-color: #00AB91;
+}
+.ng-scope {
+  height: 100%;
+}
+
+.container {
+  height: 100%;
+  width: 100%;
+}
+
+.fifth-section .learn-more-link {
+  border-color: #00AB91;
+}
+
+footer {
+  background-color: #120834;
+}
+
+.footer-section  .icon-caption {
+  line-height: 35px;
+  margin-top: 0px;
+}
+
+.footer-section .icon-caption p {
+  margin-top: 0px;
+}
+
+.footer-icons {
+  width: 50%;
+  margin: 15px auto 0;
+}
+
+.footer-icons .icon:not(:last-child) {
+  margin-right: 35px;
+}
+
+@media (max-width: 768px) {
+
+/*.first-section::before {
+
  background-color: black;
  bottom: 0;
  content: '';
@@ -18,7 +205,7 @@ body {
  height: 100%;
  width: 100%;
  opacity: .65;
-}
+}*/
 
 .main-section {
  height: 100%;
@@ -26,24 +213,18 @@ body {
  width: 100%;
 }
 
-.first-section {
-  height: 150px;
- background: url(../images/succulents1.png);
- background-size: cover;
- background-position: center;
- background-attachment: fixed;
-}
 
-.first-section img {
+/*.first-section img {
   margin-bottom: 80px;
-}
+}*/
 
 .section-text {
-  height: 500px;
+  /*height: 500px;*/
  color: white;
  position: relative;
  text-align: center;
  top: 17.5%;
+ font-size: 16px;
 }
 
 .section-text img {
@@ -56,7 +237,7 @@ body {
 }
 .second-section .section-text, .third-section .section-text, .fourth-section .section-text, .fifth-section .section-text,
 .footer-section .section-text {
-  top: 25%;
+  top: 20%;
 }
 
 .italics {
@@ -72,13 +253,16 @@ body {
  margin-bottom: 20px;
 }
 
-.section-text p {
-  margin-top: 20px;
-  margin-bottom: 0px;
-}
+
 
 .section-text > span {
  font-weight: 200;
+}
+
+.section-text p {
+  margin-top: 20px;
+  margin-bottom: 0px;
+  font-weight: 400;
 }
 
 .head-tagline   {
@@ -129,7 +313,7 @@ body {
 
 .info-text {
   line-height: 30px;
-  margin: 25px 40px 40px;
+  /*margin: 25px 40px 40px;*/
 }
 
 .main-section .icon {
@@ -157,20 +341,18 @@ footer {
 
 .footer-section  .icon-caption {
   line-height: 35px;
-  margin-top: 0px;
+  margin-top: 10px;
+  font-size: 22px;
 }
 
-.footer-section .icon-caption p {
-  margin-top: 0px;
-}
 
 .footer-icons {
-  width: 50%;
+  width: 100%;
   margin: 15px auto 0;
 }
 
-.footer-icons .icon:first-child {
-  margin-right: 35px;
+.footer-icons .icon:not(:last-child) {
+  margin-right: 20px;
 }
 /* IMAGE GALLERY STYLING  */
 
@@ -354,4 +536,23 @@ input[type=checkbox]:checked ~ label + .mobile-menu {
 
 .sherpa {
   font-size: 24px;
+}
+}
+
+@media (max-width: 321px) {
+  .main-section:not(:first-child) {
+    margin-top: 0;
+  }
+  .second-section .section-text, .third-section .section-text, .fourth-section .section-text, .fifth-section .section-text,
+  .footer-section .section-text {
+    top: 15%;
+  }
+
+  .section-text p {
+    margin: 0 5px 5px;
+  }
+
+  .footer-icons .icon {
+    font-size: 40px;
+  }
 }
