@@ -6,8 +6,7 @@
   },
   "scripts": {
   "start": "node app.js"
-}
-  "repository": {},
+},
   "devDependencies": {
     "grunt": "^0.4.5",
     "grunt-autoprefixer": "^2.0.0",
